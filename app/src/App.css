@@ -1,13 +1,15 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: beige;
+  background: linear-gradient(135deg, white, #457aeb);
+  background-repeat: no-repeat;
+  height: 800px;
   padding: 20px;
 }
 
 h1 {
   font-size: 24px;
-  color: #333;
+  color: black;
 }
 
 .AddTodo {
@@ -16,6 +18,7 @@ h1 {
 
 .TodoList {
   border: 1px solid #ddd;
+  color: black;
   padding: 10px;
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -26,6 +29,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  color: black;
   border-bottom: 1px solid #ddd;
 }
 
@@ -47,4 +51,12 @@ button:hover {
 }
 .editbutton {
   margin-left: 10px;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+.gap {
+  margin-top: 10px;
+}
+.list {
 }
